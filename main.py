@@ -44,7 +44,7 @@ def run_streamlit_app(model, tokenizer):
 
 # Main execution
 if __name__ == "__main__":
-    model_name = "meta-llama/Llama-2-7b-chat-hf"  # You'll need access to this model
+    model_name = "meta-llama/Llama-2-7b-chat-hf"
 
     tokenizer, model = load_model(model_name)
 
